@@ -18,6 +18,16 @@ const userSchema = new Schema(
             type: String,
             required: true,
         },
+        permissions: {
+            type: String,
+            required: true,
+        },
+        pointbank: {
+            type: Number
+        },
+        accruedpoints: {
+            type: Number
+        }
     },
     //set this to use virtual below
     {
